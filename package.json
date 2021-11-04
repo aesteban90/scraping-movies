@@ -1,0 +1,35 @@
+{
+  "name": "webscraping",
+  "version": "1.0.0",
+  "description": "Obtener datos de paginas",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@googleapis/docs": "^0.2.0",
+    "adf.ly": "^1.2.0",
+    "google-auth-library": "^7.1.0",
+    "googleapis": "^74.1.0",
+    "http": "0.0.1-security",
+    "m3u8-to-mp4": "^1.0.0",
+    "node-fetch": "^2.6.1",
+    "open": "^8.2.0",
+    "puppeteer": "^8.0.0",
+    "puppeteer-extra": "^3.1.18",
+    "puppeteer-extra-plugin-stealth": "^2.7.6",
+    "rimraf": "^3.0.2",
+    "server-destroy": "^1.0.1",
+    "typescript": "^4.2.4",
+    "url": "^0.11.0"
+  }
+}
